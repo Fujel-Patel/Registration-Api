@@ -1,5 +1,5 @@
 // Replace with your Railway backend URL after deployment
-const API_URL = 'https://registration-api-production.up.railway.app/register';
+const API_URL = 'https://registration-api-production.up.railway.app/api/register';
 
 const form = document.getElementById('registrationForm');
 const message = document.getElementById('message');
