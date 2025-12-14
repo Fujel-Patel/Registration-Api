@@ -7,7 +7,9 @@ const app = express();
 
 // Middleware
 app.use(cors());
-app.use(express.json());
+app.use(express.json({
+    origin: "https://poetic-pudding-65616c.netlify.app/"
+}));
 
 // Database connection
 const db = mysql.createConnection({
